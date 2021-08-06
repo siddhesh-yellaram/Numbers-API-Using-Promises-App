@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="NumbersAPIDesign.css">
+    <title>Numbers & Promises</title>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Numbers API</h1>
+        <form>
+            <input type="text" placeholder="Enter A No.!!!" id="numberInput">
+            <button id="facts" class="btn btn-success">Get Facts</button>
+        </form>
+    </div>
+    <div id="displayfacts">
+        <div id="searchedFact">
+            <h2>New Facts</h2>
+        </div>
+        <div id="previousFact">
+            <h2>Previously Searched Facts</h2>
+        </div>
+        <button id="deleteFacts" class="btn btn-success">Clear History</button>
+    </div>
+    <script type="text/javascript" src="NumbersAPIPromises.js"></script>
+</body>
+
+</html>

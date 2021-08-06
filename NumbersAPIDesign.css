@@ -1,0 +1,13 @@
+body{
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 1.6em;
+    background: #232323;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+p{
+    padding-top: 15px;
+}
